@@ -20,7 +20,6 @@ body {
 	position: absolute;
 	top: 30px;
 	left: 365px;
-	z-index: 1;
 }
 
 #coupon {
@@ -32,6 +31,7 @@ body {
 #coupon a, img {
     border: none;
 }
+/*---*/
 
 #tableContainer {
 	display: table;
