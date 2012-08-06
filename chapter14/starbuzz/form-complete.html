@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <h1>The Starbuzz Bean Machine</h1>
     <h2>Fill out the form below and click "order now" to order</h2>
 
-    <form id="beanform" action="http://starbuzzcoffee.com/processorder.php" method="post">
+    <form action="http://starbuzzcoffee.com/processorder.php" method="post">
 		<p>
           Choose your beans:
             <select name="beans">
@@ -24,7 +24,7 @@
             <input type="radio" name="beantype" value="whole">
             Whole bean
             <br>
-            <input type="radio" name="beantype" value="ground" checked="checked"> 
+            <input type="radio" name="beantype" value="ground" checked> 
             Ground
 		</p>
 		<p>
@@ -38,7 +38,7 @@
             <input type="checkbox" name="extras[]" value="giftwrap">
             Gift wrap
             <br>
-            <input type="checkbox" name="extras[]" value="catalog" checked="checked">
+            <input type="checkbox" name="extras[]" value="catalog" checked>
             Include catalog with order
 		</p>
 		<p>
@@ -58,7 +58,7 @@
 		</p>
 		<p>
           Customer Comments:<br>
-            <textarea name="comments" rows="10" cols="48"></textarea>
+            <textarea name="comments"></textarea>
 		</p>
 		<p>
             <input type="submit" value="Order Now">

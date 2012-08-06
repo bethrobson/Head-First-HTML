@@ -10,23 +10,23 @@ form {
 	background-color: #e1ceb8;
 }
 
-form textarea {
-	width: 500px;
-	height: 200px;
-}
-
 div.tableRow {
 	display: table-row;
 }
 
-div.tableRow p {
+div.tableRow > p, div.tableRow > label, div.tableRow > input {
 	display: table-cell;
 	vertical-align: top;
 	padding: 3px;
 }
-div.tableRow p:first-child {
+div.tableRow label:first-child {
 	text-align: right;
 }
-p.heading {
+form textarea {
+	display: table-cell;
+	width: 500px;
+	height: 200px;
+}
+legend {
 	font-weight: bold;
 }
