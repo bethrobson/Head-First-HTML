@@ -16,6 +16,18 @@ h2 {
   font-size:           130%;
 }
 
+#elixirs {
+  margin-left:         20px;
+  width:               212px;
+  border:              thin solid #007e7e;
+  padding-left:        20px;
+  padding-right:       20px;
+  padding-bottom:      20px;
+  background-image:    url(images/cocktail.gif);
+  background-repeat:   repeat-x;
+  text-align:          center;
+}
+
 #guarantee {
   line-height:         1.9em;
   font-style:          italic;
