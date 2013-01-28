@@ -1,0 +1,39 @@
+body {
+	font-size: small;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
+}
+
+h1, h2 {
+	color: #007e7e;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 130%;
+}
+
+#guarantee {
+	border-color: white;
+	border-width: 1px;
+	border-style: dashed;
+	background-color: #a7cece;
+	padding: 25px;
+	padding-left: 80px;
+	padding-top: 23px;
+	margin: 30px;
+	margin-right: 200px;
+	line-height: 2.1em;
+	font-style: italic;
+	font-size: 1.1em;
+	color: #444444;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-image: url(images/background.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}

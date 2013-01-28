@@ -28,6 +28,14 @@ h2 {
   text-align:          center;
 }
 
+#elixirs h2 {
+  color:               black;
+}
+
+#elixirs h3 {
+  color:               #d12c47;
+}
+
 #guarantee {
   line-height:         1.9em;
   font-style:          italic;
