@@ -1,7 +1,5 @@
 body {
-  font-size:           small;
-  font-family:         Verdana, Helvetica, Arial, sans-serif;
-  line-height:         1.6em;
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
 }
 
 h1, h2 {
@@ -20,12 +18,10 @@ h2 {
   margin-left:         20px;
   width:               200px;
   border:              thin solid #007e7e;
-  padding-left:        20px;
-  padding-right:       20px;
-  padding-bottom:      20px;
-  background-image:    url(images/cocktail.gif);
-  background-repeat:   repeat-x;
+  padding:             0px 20px 20px 20px;
+  background:          url(images/cocktail.gif) repeat-x;
   text-align:          center;
+  line-height:         1;
 }
 
 #elixirs h2 {
@@ -41,10 +37,7 @@ h2 {
   font-style:          italic;
   font-family:         Georgia, "Times New Roman", Times, serif;
   color:               #444444;
-  border-color:        white;
-  border-width:        1px;
-  border-style:        dashed;
-  background-color:    #a7cece;
+  border:              white 1px dashed;
   padding:             25px;
   padding-left:        80px;
   margin:              30px;
@@ -52,4 +45,5 @@ h2 {
   background-image:    url(images/background.gif);
   background-repeat:   no-repeat;
   background-position: top left;
+  background:          url(images/background.gif) top left no-repeat #a7cece;
 }
