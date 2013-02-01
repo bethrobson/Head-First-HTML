@@ -5,10 +5,34 @@ body {
   margin:           0px;
 }
 
+#coupon {
+  position: fixed;
+  bottom: 200px;
+  left: -90px;
+}
+
+#coupon:hover {
+  left: 0px;
+}
+
+#coupon a, img {
+  border: none;
+}
+
 #header {
   background-color: #675c47;
   margin:           10px 10px 0px 10px;
   height:           108px;
+}
+
+#headerSlogan {
+  float: right;
+}
+
+#award {
+  position: absolute;
+  top: 30px;
+  left: 365px;
 }
 
 #tableContainer {
