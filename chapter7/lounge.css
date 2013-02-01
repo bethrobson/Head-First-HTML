@@ -1,19 +1,27 @@
 body {
-	font-family: sans-serif;
+    font-family: sans-serif;  
 }
 
-h1, h2 {    
-	color: gray;
+h1, h2 {
+    color: gray;
 }
 
-h1 { 
-	border-bottom: 1px solid black;
+h1 {
+    border-bottom: 1px solid black;
 }
 
 p {
-	color: maroon;
+    color: maroon;   
+}
+
+p.blueberry {
+    color: purple;
 }
 
 p.greentea {
-	color: green;
+    color: green;
+}
+
+p.raspberry {
+    color: blue;
 }
