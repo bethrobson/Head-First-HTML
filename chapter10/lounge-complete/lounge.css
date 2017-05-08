@@ -25,7 +25,7 @@ h2 {
   padding-left: 80px;
   margin: 30px;
   margin-right: 250px;
-  background-image: url(images/background.gif);
+  background-image: url("images/background.gif");
   background-repeat: no-repeat;
   background-position: top left;
 }
